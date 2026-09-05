@@ -19,27 +19,17 @@ This project is made for educational purposes only.
 
 ## ⚡ Features
 
-HACKNUT v1.1 has 7 main modules:
+HACKNUT v1.0 has 9 main modules:
 
-1.  **Username Recon**  
-    Checks if a username exists on GitHub, Instagram, Twitter/X, and Reddit.
-
-2.  **Domain OSINT**  
-    Performs WHOIS lookup, gets Registrar, Creation Date, and resolves IP Address.
-
-3.  **IP OSINT**  
-    Finds Geolocation, Country, City, Region, and ISP of any IP Address.
-
-4.  **Email Scraper**  
-    Extracts all public email addresses from any given website.
-
-5.  **Auto Report Generation**  
-    Saves all results in a `.txt` file like `HACKNUT_Report_target.txt`
-
-6.  **Facebook Recon**: Check username on Facebook
-
-7.  **Server Detection**: Detect server, CMS, CDN
----
+1.  Username Scanner
+2.  Domain OSINT - Whois + IP 
+3.  IP Geolocation
+4.  Email Scraper
+5.  Port Scanner - Nmap
+6.  Subdomain Finder
+7.  Server Detector
+8.  DNS Records - A, MX, NS, TXT
+9.  Social Post Finder
 
 ## 🛠️ Tech Stack & Requirements
 
@@ -60,3 +50,6 @@ HACKNUT v1.1 has 7 main modules:
 ```bash
 git clone https://github.com/Hacknut988/HACKNUT-OSINT.git
 cd HACKNUT-OSINT
+pip install -r requirements.txt
+sudo apt install nmap
+python3 hacknut.py
