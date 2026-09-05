@@ -46,7 +46,6 @@ HACKNUT v1.0 has 9 main modules:
 
 ## 🚀 How to Install & Run
 
-### Step 1: Clone or Download
 ```bash
 git clone https://github.com/Hacknut988/HACKNUT-OSINT.git
 cd HACKNUT-OSINT
