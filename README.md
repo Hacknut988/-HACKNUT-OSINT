@@ -51,4 +51,4 @@ git clone https://github.com/Hacknut988/HACKNUT-OSINT.git
 cd HACKNUT-OSINT
 pip install -r requirements.txt
 sudo apt install nmap
-python3 hacknut.py
+python3 HACKNUT.py
